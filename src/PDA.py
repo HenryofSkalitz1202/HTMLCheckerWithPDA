@@ -1,3 +1,6 @@
+# https://github.com/msindev/PushDown-Automata-Implementation
+# https://adityarizki.net/belajarpython-9-operasi-tokenizing-pada-teks-berbahasa-indonesia/
+
 from FileHandler import FileHandler
 from Path_Reader import *
 from Custom_Splitter import *
