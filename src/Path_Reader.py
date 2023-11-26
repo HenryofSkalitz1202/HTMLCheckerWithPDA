@@ -1,14 +1,3 @@
-import sys
-
-# Check if correct number of arguments are provided
-if len(sys.argv) != 3:
-    print("Usage: python program.py file_html pda_file")
-    sys.exit(1)
-
-# Get file paths from command line arguments
-html_file_path = sys.argv[1]
-pda_file_path = sys.argv[2]
-
 def read_html(html_file_path):
     try:
     # Read HTML file

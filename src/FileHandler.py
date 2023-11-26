@@ -32,8 +32,8 @@ class FileHandler:
         states = lines[0].rstrip().split()
         input_symbols = lines[1].rstrip().split()
         stack_symbols = lines[2].rstrip().split()
-        initial_state = lines[3][0]
-        initial_stack = lines[4][0]
+        initial_state = lines[3][:2]
+        initial_stack = lines[4]
         final_states = lines[5].rstrip().split()
         productions = lines[6:]
         for i in range(len(productions)):
